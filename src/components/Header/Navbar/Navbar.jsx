@@ -63,7 +63,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navBar  bg-base-100 border-b">
+    <div className="navBar bg-white border-b">
       <div className="max-w-screen-xl mx-auto px-5 md:px-10 py-4">
         <div className="w-full flex justify-between items-center ">
           <div className="flex items-center ">
@@ -86,7 +86,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="navLinks flex flex-col gap-2 dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="navLinks flex flex-col gap-2 dropdown-content mt-3 z-[1] p-2 shadow bg-slate-200 rounded-box w-52"
               >
                 {navLinks}
               </ul>
@@ -117,7 +117,7 @@ const Navbar = () => {
                 </label>
                 <ul
                   tabIndex={0}
-                  className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                  className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-200 rounded-box w-52"
                 >
                   <h3 className="font-medium py-2 text-center lg:hidden">
                     {user?.displayName}

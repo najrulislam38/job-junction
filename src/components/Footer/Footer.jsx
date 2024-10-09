@@ -38,7 +38,7 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
                 Job Junction
               </h2>
-              <ul className=" font-medium">
+              <ul className=" font-medium text-gray-500">
                 <li className="mb-4">
                   <a href="#" className=" hover:underline">
                     About

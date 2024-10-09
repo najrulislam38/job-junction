@@ -15,7 +15,7 @@ const JobCategory = ({ job }) => {
   });
 
   return (
-    <div className="w-full h-fit flex flex-col border shadow-lg bg-base-100 rounded-md p-8">
+    <div className="w-full h-fit flex flex-col border shadow-lg bg-slate-200 rounded-md p-8">
       <div className="space-y-1 flex-1">
         <h1 className="text-xl font-medium ">
           <span className=" text-black font-medium ">Job Title:</span> {title}

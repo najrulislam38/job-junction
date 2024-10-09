@@ -13,7 +13,7 @@ const JobCard = ({ job, handleDeletePost }) => {
   });
 
   return (
-    <div className="w-full h-fit flex flex-col md:flex-row  gap-6 border shadow-lg bg-base-100 rounded-md p-8">
+    <div className="w-full h-fit flex flex-col md:flex-row  gap-6 border shadow-lg bg-slate-200 rounded-md p-8">
       <div className="space-y-1 flex-1">
         <h1 className="text-base md:text-lg font-medium ">
           <span className=" text-black font-medium ">Job Title:</span>{" "}
